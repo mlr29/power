@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Rangers</title>
+    <link rel="shortcut icon" href="./src/images/logo.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="./src/images/logo.svg" alt="Logo Power Rangers" class="logo">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ranger-vermelho" data-name="Ranger Vermelho" 
+                data-description="Líder dos Power Rangers, Jason Lee Scott e seu talento de arte-marciais o fizeram um ranger muito forte e corajoso, que prova o que um Líder de verdade faria, sempre disposto a ajudar os amigos e nunca desiste de enfrentar os monstros de Rita.">
+                    <img src="./src/images/ranger-vermelho.jpg" alt="Personagem Ranger Vermelho">
+                </li>
+                <li class="personagem" id="ranger-verde" data-name="Ranger Verde" 
+                data-description="Tommy foi enfeitiçado por Rita para se tornar o Ranger Verde do mal, mas após ter sido derrotado pelo Jason, Tommy se liberta do feitiço e se une aos seus amigos. ">
+                    <img src="./src/images/ranger-verde.jpeg" alt="Personagem Ranger Verde">
+                </li>
+                <li class="personagem" id="ranger-preto" data-name="Ranger Preto" 
+                data-description="Zack é um sujeito bem tranquilo e amigável, admirador da cultura afro e um ótimo dançarino, costuma ser legal com as garotas, especialmente suas colegas de equipe Trini e Kimberly.">
+                    <img src="./src/images/ranger-preto.jpeg" alt="Personagem Ranger Preto">
+                </li>
+                <li class="personagem" id="ranger-azul" data-name="Ranger Azul" 
+                data-description="Billy é o mais inteligente e brilhante da equipe, a princípio, ele costumava ser um nerd tímido e atrapalhado, mas conforme o passar das temporadas, ele foi ficando mais confiante e forte, sendo de grande ajuda para os seus amigos.">
+                    <img src="./src/images/ranger-azul.jpeg" alt="Personagem Ranger Azul">
+                </li>
+                <li class="personagem" id="ranger-amarelo" data-name="Ranger Amarelo" 
+                data-description="Trini é uma excelente lutadora, costuma sempre raciocinar no combate para poder ajudar seus companheiros. A sua melhor amiga é a Kimberly já que as duas lutam bem juntas. ">
+                    <img src="./src/images/ranger-amarelo.jpeg" alt="Personagem Ranger Amarelo">
+                </li>
+                <li class="personagem" id="ranger-rosa" data-name="Ranger Rosa" 
+                data-description="Kimberly é uma grande ginasta olímpica, e na equipe ela é a mais charmosa e feminina do grupo. Aparenta ser uma patricinha fútil no começo, mas no fundo é uma garota muito doce e sensível que gosta muito dos seus amigos.">
+                    <img src="./src/images/ranger-rosa.jpeg" alt="Personagem Ranger Rosa">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande"  src="./src/images/card-ranger-vermelho.jpg" alt="Personagem selecionado">
+            <div class="informacoe-personagem">
+                <h2 class="nome-personagem" id="nome-personagem"> Ranger Vermelho</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Líder dos Power Rangers, Jason Lee Scott e seu talento de
+                    arte-marciais o fizeram um ranger muito forte e corajoso, que prova o que um Líder de verdade faria,
+                    sempre disposto a ajudar os amigos e nunca desiste de enfrentar os monstros de Rita.
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="./src/js/index.js"></script>
+</html>
